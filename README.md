@@ -1,5 +1,5 @@
 # Personal Website of Falah Sultan Alizhar - Online Resume
-### [Live Site](https://falah.page/)
+### [Live Site](https://alizhar.dev/)
 
 ![Modern UI/UX GPT-3](https://i.ibb.co/ThMqsdZ/HomePage.png)
 
