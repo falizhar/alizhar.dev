@@ -1,0 +1,137 @@
+.header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header h2 {
+    font-size: clamp(2vw, 3.2vw, 20px);
+    font-weight: 600;
+}
+
+.header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: clamp(3vw, 7vw, 56px);
+    letter-spacing: -0.04em;
+    white-space: nowrap;
+}
+
+.header-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 3vmin;
+    color: var(--color-text);
+
+    margin-top: 1.5rem;
+}
+
+.header-content__input {
+    width: 100%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: var(--gradient-text);
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.header-content__input button {
+    flex: 0.6;
+    min-width: 30em;
+    max-width: 60em;
+    min-height: 8vmin;
+    font-family: var(--font-family);
+    font-weight: 720;
+    font-size: 2vmin;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    color: var(--gradient-text);
+    cursor: pointer;
+    outline: none;
+
+    border-radius: 1vmin 8vmin 1vmin 8vmin;
+}
+
+.header-content__input button:hover {
+    border-radius: 8vmin 1vmin 8vmin 1vmin;
+}
+
+.header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image img {
+    width: 90%;
+    height: 90%;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+@media screen and (max-width: 1050px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header-content {
+        margin: -3rem 0 0.2rem;
+    }
+
+    .header-image img {
+        margin-bottom: -6rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header-content p {
+        font-size: 3vmin;
+        line-height: 24px;
+    }
+
+    .header-content__input input,
+    .header-content__input button {
+        font-size: 3vmin;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .header-content p {
+        font-size: 2.5vmin;
+        line-height: 24px;
+    }
+
+    .header-content__input input,
+    .header-content__input button {
+        font-size: 2vmin;
+        line-height: 16px;
+    }
+}

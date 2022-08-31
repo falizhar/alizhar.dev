@@ -1,0 +1,129 @@
+.features-container__feature {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+
+    margin: 1rem;
+}
+
+.features-container__feature-job {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    font-size: 20%;
+    margin: 1rem;
+}
+
+.features-container__feature-title {
+    flex: 1;
+    max-width: 180px;
+    margin-left: -1rem;
+}
+
+
+.features-container__feature-title p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    text-align: start;
+    font-size: 60%;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
+
+.features-container__feature-title h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 120%;
+    line-height: 200%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.features-container__feature-title h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 90%;
+    line-height: 100%;
+    color: #fff;
+    margin: 0.1em 0 0.2em 0;
+}
+
+.features-container__feature-title div {
+    width: 38px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 0.25rem;
+}
+
+.features-container_feature-text {
+    flex: 2;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    color: var(--lighter-text);
+}
+
+.features-container_feature-text p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-justify: inter-word;
+    margin-bottom: 0.25rem;
+}
+
+.features-container_feature-text ul {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0.2rem;
+}
+
+.features-container_feature-text ol {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0.2rem;
+}
+
+@media screen and (max-width: 850px) {
+    .features-container__feature-title h1 {
+        font-size: 90%;
+        margin-top: -0.2rem;
+    }
+
+    .features-container__feature-title h2 {
+        font-size: 80%;
+        line-height: 0.6rem;
+    }
+
+    .features-container__feature-title p {
+        font-size: 30%;
+    }
+
+    .features-container_feature-text p {
+        font-size: 70%;
+        line-height: 1rem;
+    }
+
+    .features-container_feature-text ul {
+        font-size: 70%;
+        line-height: 1rem;
+    }
+
+    .features-container_feature-text ol {
+        font-size: 70%;
+        line-height: 1rem;
+    }
+
+    .features-container__feature {
+        margin: 1rem 0;
+    }
+}
