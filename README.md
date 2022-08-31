@@ -1,21 +1,15 @@
-# Modern UI/UX GPT-3
-### [Live Site](https://gpt3-jsm.com/)
+# Personal Website of Falah Sultan Alizhar - Online Resume
+### [Live Site](https://falah.page/)
 
-![Modern UI/UX GPT-3](https://i.ibb.co/TR5LW9z/image.png)
+![Modern UI/UX GPT-3](https://i.ibb.co/ThMqsdZ/HomePage.png)
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
+## Permissions
+This is my personal website build with ReactJS. The design of this website is inspired by [adrianhajdin](https://github.com/adrianhajdin/project_modern_ui_ux_gpt3).
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
+I'm cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components it to make it your own. If you are using the site's design largely unmodified, I'd appreciate being credited.
 
-You might be wondering, what are the prerequisites for building such an amazing website? Don't worry, this course is completely beginner-friendly! We're going to start easy and them move to more complex topics. Every step of the way will be explained. Alongside building the website, you'll learn:
+I do not give permission to present any of my personal information such as work experience, contacts, etc. (this website is being actively used as my personal site).
 
-- React Functional components and their re-usability
-- React file and folder structure
-- Fundamental CSS properties to master flex & grid
-- Fundamentals of the CSS BEM Model
-- From soft and pleasant animations to complex gradients
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -24,18 +18,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn install`
+
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
